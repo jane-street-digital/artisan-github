@@ -1,6 +1,7 @@
 {
     "name": "janestreetdigital/artisan-github",
     "description": "The utility for quick GitHub actions using artisan commands",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jase Languasco",
