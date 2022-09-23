@@ -8,3 +8,9 @@
 ### Build frontend assets, commit your work and ship to your current branch all with one command
 
 <img width="809" alt="image" src="https://user-images.githubusercontent.com/16354740/191889536-3d10362d-5d74-4308-9a08-a465e4967256.png">
+
+### Installation
+
+`composer require janestreetdigital/github-artisan`
+
+https://packagist.org/packages/janestreetdigital/artisan-github
