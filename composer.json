@@ -1,0 +1,24 @@
+{
+    "name": "janestreetdigital/artisan-github",
+    "description": "The utility for quick GitHub actions using artisan commands",
+    "authors": [
+        {
+            "name": "Jase Languasco",
+            "email": "jase@janestreetdigital.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "JaneStreetDigital\\ArtisanGitHub\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "JaneStreetDigital\\ArtisanGitHub\\ArtisanGitHubServiceProvider"
+            ]
+        }
+    }
+}
