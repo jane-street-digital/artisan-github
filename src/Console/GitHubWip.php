@@ -74,13 +74,14 @@ class GitHubWip extends Command
 
     protected function npmRunProd()
     {
-        $this->cli('npm run prod');
+        $this->cli('npm run build');
         $this->itemOut('Production Assets Built');
     }
 
     protected function gitCommitAll(): void
     {
-        $this->cli("git commit -am 'wip'");
+        $this->cli("git add .");
+        $this->cli("git commit -m 'wip'");
         $this->itemOut('Changes Commited');
     }
 
