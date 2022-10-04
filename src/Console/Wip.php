@@ -7,7 +7,7 @@ use Illuminate\Support\Str;
 use JaneStreetDigital\ArtisanGitHub\CommandHelper;
 use function Termwind\{ask};
 
-class GitHubWip extends Command
+class Wip extends Command
 {
     use CommandHelper;
 
@@ -16,14 +16,14 @@ class GitHubWip extends Command
      *
      * @var string
      */
-    protected $signature = 'gh:wip';
+    protected $signature = 'wip';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Build, Stage, Commit, and Push all current changes to the remote branch';
+    protected $description = 'Build, Commit, and Push all current changes to the remote branch';
 
     private bool $hasSomethingToShip = true;
 
@@ -54,7 +54,7 @@ class GitHubWip extends Command
 
         $this->infoOut('WIP In Progress');
 
-        $this->npmRunProd();
+        $this->npmRunBuild();
         $this->gitCommitAll();
         $this->gitPush();
         $this->askToOpenPr();
@@ -72,7 +72,7 @@ class GitHubWip extends Command
         });
     }
 
-    protected function npmRunProd()
+    protected function npmRunBuild()
     {
         $this->cli('npm run build');
         $this->itemOut('Production Assets Built');

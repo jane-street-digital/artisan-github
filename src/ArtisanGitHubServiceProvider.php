@@ -5,7 +5,7 @@ namespace JaneStreetDigital\ArtisanGitHub;
 use Illuminate\Support\ServiceProvider;
 use JaneStreetDigital\ArtisanGitHub\Console\GitHubRepoLink;
 use JaneStreetDigital\ArtisanGitHub\Console\GitHubPRLink;
-use JaneStreetDigital\ArtisanGitHub\Console\GitHubWip;
+use JaneStreetDigital\ArtisanGitHub\Console\Wip;
 use JaneStreetDigital\ArtisanGitHub\Console\GitHubIssueLink;
 
 class ArtisanGitHubServiceProvider extends ServiceProvider
@@ -27,7 +27,7 @@ class ArtisanGitHubServiceProvider extends ServiceProvider
                 GitHubPRLink::class,
                 GitHubIssueLink::class,
                 GitHubRepoLink::class,
-                GitHubWip::class,
+                Wip::class,
             ]);
         }
     }
