@@ -1,6 +1,6 @@
 <?php
 
-namespace JaneStreetDigital\ArtisanGitHub;
+namespace JaneStreetDigital\ArtisanWip;
 
 use Illuminate\Support\Collection;
 use Symfony\Component\Process\Process;

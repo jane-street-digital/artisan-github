@@ -1,9 +1,9 @@
 <?php
 
-namespace JaneStreetDigital\ArtisanGitHub\Console;
+namespace JaneStreetDigital\ArtisanWip\Console;
 
 use Illuminate\Console\Command;
-use JaneStreetDigital\ArtisanGitHub\CommandHelper;
+use JaneStreetDigital\ArtisanWip\CommandHelper;
 
 class GitHubIssueLink extends Command
 {

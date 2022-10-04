@@ -1,6 +1,6 @@
 {
-    "name": "janestreetdigital/artisan-github",
-    "description": "The utility for quick GitHub actions using artisan commands",
+    "name": "janestreetdigital/artisan-wip",
+    "description": "Wip your work into shape with just one command",
     "license": "MIT",
     "authors": [
         {
@@ -12,13 +12,13 @@
     },
     "autoload": {
         "psr-4": {
-            "JaneStreetDigital\\ArtisanGitHub\\": "src/"
+            "JaneStreetDigital\\ArtisanWip\\": "src/"
         }
     },
     "extra": {
         "laravel" : {
             "providers": [
-                "JaneStreetDigital\\ArtisanGitHub\\ArtisanGitHubServiceProvider"
+                "JaneStreetDigital\\ArtisanWip\\ArtisanWipServiceProvider"
             ]
         }
     }

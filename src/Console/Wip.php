@@ -1,10 +1,10 @@
 <?php
 
-namespace JaneStreetDigital\ArtisanGitHub\Console;
+namespace JaneStreetDigital\ArtisanWip\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use JaneStreetDigital\ArtisanGitHub\CommandHelper;
+use JaneStreetDigital\ArtisanWip\CommandHelper;
 use function Termwind\{ask};
 
 class Wip extends Command

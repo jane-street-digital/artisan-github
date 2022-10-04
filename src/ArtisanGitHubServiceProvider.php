@@ -1,14 +1,14 @@
 <?php
 
-namespace JaneStreetDigital\ArtisanGitHub;
+namespace JaneStreetDigital\ArtisanWip;
 
 use Illuminate\Support\ServiceProvider;
-use JaneStreetDigital\ArtisanGitHub\Console\GitHubRepoLink;
-use JaneStreetDigital\ArtisanGitHub\Console\GitHubPRLink;
-use JaneStreetDigital\ArtisanGitHub\Console\Wip;
-use JaneStreetDigital\ArtisanGitHub\Console\GitHubIssueLink;
+use JaneStreetDigital\ArtisanWip\Console\GitHubRepoLink;
+use JaneStreetDigital\ArtisanWip\Console\GitHubPRLink;
+use JaneStreetDigital\ArtisanWip\Console\Wip;
+use JaneStreetDigital\ArtisanWip\Console\GitHubIssueLink;
 
-class ArtisanGitHubServiceProvider extends ServiceProvider
+class ArtisanWipServiceProvider extends ServiceProvider
 {
     public function boot()
     {
