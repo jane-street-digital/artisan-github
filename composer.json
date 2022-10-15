@@ -9,6 +9,7 @@
         }
     ],
     "require": {
+        "nunomaduro/termwind": "^1.14"
     },
     "autoload": {
         "psr-4": {
