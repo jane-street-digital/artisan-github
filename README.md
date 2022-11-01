@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://packagist.org/packages/janestreetdigital/artisan-wip"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/janestreetdigital/artisan-wip"></a>
-    <a href="https://packagist.org/packages/janestreetdigital/laravel-wip"><img alt="Latest Version" src="https://img.shields.io/packagist/v/janestreetdigital/artisan-wip"></a>
+    <a href="https://packagist.org/packages/janestreetdigital/artisan-wip"><img alt="Latest Version" src="https://img.shields.io/packagist/v/janestreetdigital/artisan-wip"></a>
     <a href="https://packagist.org/packages/janestreetdigital/artisan-wip"><img alt="License" src="https://img.shields.io/packagist/l/janestreetdigital/artisan-wip"></a>
 </p>
 
